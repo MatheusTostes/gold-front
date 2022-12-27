@@ -5,7 +5,7 @@ const baseURL = 'https://62a0-2804-56c-a403-4700-7129-2eb1-4958-d8d0.ngrok.io';
 
 const api = axios.create({
   baseURL,
-  withCredentials: true,
+  withCredentials: false,
   timeout: 10000,
 });
 
